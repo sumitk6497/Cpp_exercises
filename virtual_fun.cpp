@@ -49,7 +49,7 @@ int main()
 	d->display();				//derived class fun called
 	d->derived::display();			//derived class fun called
 	d->base::display();			//base class fun called
-	d->displayfun();			//ERROR : displayfun() is not member function of base class
+	d->displayfun();			//derived class fun called
 	std::cout <<"------------------------------------------------" << std::endl;
 	return 0;
 }
